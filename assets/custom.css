@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,800&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,100,300,600,800|Droid+Sans:400,700');
+
+body{
+  background:#000;
+}
+
+.nav-first{
+  background: #000;
+  border:0;
+  padding:0;
+  margin:0;
+}
+
+.nav-first .icon{
+  padding:5px;
+}
+.nav-first .phone{
+  font-family: "Droid Sans", Arial, sans-serif;
+  letter-spacing:2px;
+  font-size:20px;
+  font-weight: 700;
+  padding:12px 10px;
+  color:#fff;
+}
+.nav-first .open {
+  font-family: "Raleway", Arial, sans-serif;
+  font-size:12px;
+  color: #555;
+  padding:17px 10px;
+}
+.nav-first .glyph-icon{
+  color:#fff;
+  padding:17px 10px;
+}
+
+.nav-second {
+  background-color:rgba(255,255,255,0.2);
+  border-top:0;
+  border-left:0;
+  border-right:0;
+  border-bottom: solid 2px rgba(255,255,255,0.2);
+  border-radius:0;
+  min-height: auto;
+  position: relative;
+  top: 0;
+  font-size: 13px;
+  width: auto;
+  margin-bottom: 0px;
+}
+.navbar-brand {
+  padding: 0 15px;
+  height: 96px;
+}
+
+.nav-second .navbar-nav li a, .nav-first .navbar-nav li a {
+  font-family: "Raleway", Arial, sans-serif;
+  font-weight: 100;
+  letter-spacing: 2px;
+  color:#fff !important;
+  text-transform:uppercase;
+}
+
+@media (min-width: 768px) {
+  .nav-second .navbar-nav {
+    position: relative;
+    right: -50%;
+  }
+  .nav-second .navbar-nav > li {
+    position: relative;
+    left: -50%;
+  }
+  .nav-second .navbar-nav > li a {
+    line-height: 126px;
+    vertical-align: middle;
+    padding: 0 10px;
+  } 
+}
+
+@media (min-width: 992px) {
+  .nav-second .navbar-nav > li a {
+    padding: 0 25px;
+  } 
+}
+
+@media (min-width: 1200px) {
+  .nav-second .navbar-nav > li a {
+    padding: 0 24px;
+  } 
+}
+
+.type-banner {
+    color: #ffffff;   
+    padding-top: 8%;
+}
+.type-banner h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    letter-spacing: -1px;
+}
+span.type {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.job-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: -1px;
+}
+
+div#fp-nav {
+    background: #cbc2c5;
+    border-radius: 20px;
+    padding: 10px 0px;
+    top: unset!important;
+    bottom: 20px;
+    z-index: 999!important;
+}
+
+/* section 2 */
+h1.text-sec2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    letter-spacing: -1px;
+    color: #ffffff;  
+    padding-bottom: 15px;
+    margin-top: 55px;
+}
+
+.details__separator {
+    border: 0;
+    border-bottom: 1px solid #fff;
+    display: block;
+    height: 0;
+    margin: 0 auto 10px 0;
+    opacity: .8;
+    width: 20%;
+}
+
+.home-section-details__description a {
+    color: #fff !important;  
+    font-size: 1.5rem;
+    letter-spacing: -1px;
+}
+
+.home-section-details__description {
+    padding: 25px 0;
+}
+
+.learn-btn p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #5f2a00;
+    background: #ffcc5f;
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 25px;
+    margin-top: 45px;
+}
+
+/* .fp-controlArrow {
+    display: none;
+} */
