@@ -107,6 +107,7 @@ span.type {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     font-size: 70px;
+    border-bottom: 5px solid #fff;
 }
 
 .job-title {
