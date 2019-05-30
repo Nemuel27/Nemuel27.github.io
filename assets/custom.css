@@ -195,7 +195,7 @@ h6.text-sec2-slider {
   height: 230px;
   perspective: 1000px;
   margin-bottom: 10px;
-  backface-visibility: hidden;
+  
 }
 
 .flip-card-inner {
@@ -236,6 +236,7 @@ h6.text-sec2-slider {
   margin: 5px 0 5px 0;
   color: white;
   transform: rotateY(180deg);
+  backface-visibility: hidden;
 }
 
 .flip-card-back > h1 {
