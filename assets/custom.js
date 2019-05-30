@@ -6,6 +6,8 @@ $(document).ready(function() {
         sectionsColor : ['#fff','#000', '#cb2027', '#69e781'],
         navigation: true,
         navigationPosition: 'right', 
+        anchors: ['HomePage', 'AboutMe'],
+
 
     });
 
