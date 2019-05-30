@@ -6,7 +6,6 @@ $(document).ready(function() {
         sectionsColor : ['#fff','#000', '#cb2027', '#69e781'],
         navigation: true,
         navigationPosition: 'right', 
-        anchors:['HomePage', 'AboutPage'],
 
     });
 
@@ -15,7 +14,7 @@ $(document).ready(function() {
 });
 
 var typed = new Typed('.type', {
-strings: ["I'm Nemuel Santos", "Enjoy visiting my site!"],
+strings: ["I'm Nemuel L. Santos", "Enjoy visiting my site!"],
 // typeSpeed: 1
 stringsElement: null,
     // typing speed
@@ -49,7 +48,7 @@ stringsElement: null,
 });
 
 $( ".learn-btn" ).click(function() {
-    $( ".fp-next" ).trigger('click');
+    $( ".fp-next" ).click();
 });
 
 

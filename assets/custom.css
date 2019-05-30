@@ -115,7 +115,6 @@ span.type {
     font-weight: 700;
     font-size: 30px;
     letter-spacing: -1px;
-    margin-top: 35px;
 }
 
 div#fp-nav {
@@ -150,7 +149,7 @@ h1.text-sec2 {
 
 .home-section-details__description a {
     color: #fff !important;  
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     letter-spacing: -1px;
 }
 
@@ -180,29 +179,68 @@ h6.text-sec2-slider {
   padding-bottom: 5px;
 }
 
-.circle-div {
-  display: inline-block;
-  background: rgba(11,18,24,.5);
-  position: relative;
-  width: 230px;
-  height: 230px;
-  text-align: center;
-  transition: transform .6s;
-  transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,.5);
-  border-radius: 50%;
-  margin: 5px 0 5px 0;
-}
 
 .skill-icon {
   position: absolute;
-  /* backface-visibility: hidden; */
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
 }
 
 
-/* .fp-controlArrow {
-    display: none;
-} */
+.flip-card {
+  background-color: transparent;
+  width: 230px;
+  height: 230px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+   background: rgba(11,18,24,.5);
+  width: 230px;
+  height: 230px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,.5);
+  border-radius: 50%;
+  margin: 5px 0 5px 0;
+}
+
+.flip-card-back {
+  background: #1a1e21 ;
+  width: 230px;
+  height: 230px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,.5);
+  border-radius: 50%;
+  margin: 5px 0 5px 0;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flip-card-back > h1 {
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
