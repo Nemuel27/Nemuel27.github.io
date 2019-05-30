@@ -115,6 +115,7 @@ span.type {
     font-weight: 700;
     font-size: 30px;
     letter-spacing: -1px;
+    margin-top: 35px;
 }
 
 div#fp-nav {
@@ -149,7 +150,7 @@ h1.text-sec2 {
 
 .home-section-details__description a {
     color: #fff !important;  
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     letter-spacing: -1px;
 }
 
