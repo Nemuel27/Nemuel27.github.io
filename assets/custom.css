@@ -195,6 +195,7 @@ h6.text-sec2-slider {
   height: 230px;
   perspective: 1000px;
   margin-bottom: 10px;
+  backface-visibility: hidden;
 }
 
 .flip-card-inner {
