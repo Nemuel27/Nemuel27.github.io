@@ -3,11 +3,10 @@ $(document).ready(function() {
         //options here
         autoScrolling:true,
         scrollHorizontally: true,
-        sectionsColor : ['#fff','#000', '#cb2027', '#69e781'],
+        sectionsColor : ['#fff','#000', '#5e7078', '#0b1218'],
         navigation: true,
         navigationPosition: 'right', 
-        anchors: ['HomePage', 'AboutMe'],
-
+        anchors:['HomePage', 'AboutPage','ContactPage'],
 
     });
 
@@ -16,7 +15,7 @@ $(document).ready(function() {
 });
 
 var typed = new Typed('.type', {
-strings: ["I'm Nemuel L. Santos", "Enjoy visiting my site!"],
+strings: ["I'm Nemuel Santos", "Enjoy visiting my site!"],
 // typeSpeed: 1
 stringsElement: null,
     // typing speed
@@ -50,7 +49,41 @@ stringsElement: null,
 });
 
 $( ".learn-btn" ).click(function() {
-    $( ".fp-next" ).click();
+    $( ".fp-next" ).trigger('click');
 });
 
+$('form[action^="https://usebasin.com"]').each(function(i,el){
+  form = $(el);
+  form.submit(function(e){
+    //stop the form from submitting
+    e.preventDefault();
+    form = $(e.target);
+    //get the form's action parameter and add ".json" to the end
+    action = form.attr('action') + '.json';
+    //submit the form via ajax
+    $.ajax({
+      url: action,
+      method: "POST",
+      data: form.serialize(),
+      dataType: "json",
+      success: function(data){
+        if(data.success){
+          //successful submission - hide the form and show the success message
+          parent = $(form.parent());
+          parent.children('form').trigger('reset')
+          parent.children('.w-form-done').css('display','block');
+          alert("Successfully Sent! I'll get back to soon, Thanks!");
+        } else {
+          //failed submission - log the output to the console and show the failure message
+          console.log(data);
+          parent.find('.w-form-fail').css('display','block');
+        }
+      },
+      error: function(){
+        //failed submission - show the failure message
+        parent.find('.w-form-fail').css('display','block');
+      }
+    });
+  });
+});
 
