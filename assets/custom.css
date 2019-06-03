@@ -231,7 +231,7 @@ form textarea#form-control{
   font-weight: 700;
   color: #fff;
   border: 2px solid;    
-  padding: .375rem .75rem;
+  padding: 10px;
   border-radius: .25rem;
 }
 
