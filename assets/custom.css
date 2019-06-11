@@ -21,6 +21,35 @@
   box-shadow: 0px 4px 10px 0px rgba(0,0,0,1);
 }
 
+ul.side-categories {
+  position: fixed;
+  left: 50%; 
+  transform: translateX(-50%); 
+  z-index: 999;
+  width: 100%;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  background: rgba(0,0,0,.59);
+}
+
+ul.side-categories li {
+  display: inline-block;
+  padding: 30px 25px;
+}
+
+ul.side-categories li a {
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  transition: .5s;
+}
+
+ul.side-categories li a:hover{
+  color: #ffcc5f;
+}
+
 @media (min-width: 768px) {
 
 }

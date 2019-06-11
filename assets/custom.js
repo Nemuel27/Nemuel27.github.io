@@ -14,6 +14,13 @@ $(document).ready(function() {
     $.fn.fullpage.setAllowScrolling(true);
 });
 
+$(function() {     
+  $('.header-logo').on('click',function(e) {
+      e.preventDefault();
+      $(".side-categories").slideToggle();
+  });
+});
+
 var typed = new Typed('.type', {
 strings: ["I'm Nemuel Santos", "Enjoy visiting my site!"],
 // typeSpeed: 1
