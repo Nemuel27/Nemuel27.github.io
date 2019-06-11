@@ -284,6 +284,10 @@ form button:hover {
 }
 
 /*footer*/
+.footer-section {
+    background: rgb(7, 45, 70) !important;
+}
+
 .footer-section .global-footer {
     padding: 65px 0 80px;
 }
