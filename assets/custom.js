@@ -21,6 +21,13 @@ $(function() {
   });
 });
 
+$(function() {     
+  $('i.fas.fa-sort-up').on('click',function(e) {
+      e.preventDefault();
+      $(".side-categories").slideUp();
+  });
+});
+
 var typed = new Typed('.type', {
 strings: ["I'm Nemuel Santos", "Enjoy visiting my site!"],
 // typeSpeed: 1
