@@ -145,14 +145,21 @@ h1.text-sec2 {
 }
 
 .learn-btn p {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    color: #5f2a00;
-    background: #ffcc5f;
-    display: inline-block;
-    padding: 10px 30px;
-    font-size: 25px;
-    margin-top: 45px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  display: inline-block;
+  padding: 10px 30px;
+  font-size: 25px;
+  margin-top: 45px;
+  border: 2px solid #fff;
+  border-radius: 30px;
+  transition: .5s;
+}
+
+.learn-btn p:hover {
+  background: #fff;
+  color: #000;
 }
 
 /* sec 2 slider */
