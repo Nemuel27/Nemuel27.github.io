@@ -6,7 +6,7 @@ $(document).ready(function() {
         sectionsColor : ['#fff','#000', '#5e7078', '#0b1218'],
         navigation: true,
         navigationPosition: 'right', 
-        anchors:['HomePage', 'AboutPage','ContactPage'],
+        anchors:['HomePage', 'AboutPage','Project','ContactPage'],
 
     });
 
