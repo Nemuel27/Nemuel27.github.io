@@ -66,6 +66,10 @@ $( ".learn-btn" ).click(function() {
     $( ".fp-next" ).trigger('click');
 });
 
+$( ".tour-btn" ).click(function() {
+  $( ".proj .fp-controlArrow.fp-next" ).trigger('click');
+});
+
 $('form[action^="https://usebasin.com"]').each(function(i,el){
   form = $(el);
   form.submit(function(e){
