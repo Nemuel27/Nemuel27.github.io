@@ -67,18 +67,6 @@ i.fas.fa-sort-up {
     cursor: pointer;
 }
 
-@media (min-width: 768px) {
-
-}
-
-@media (min-width: 992px) {
-
-}
-
-@media (min-width: 1200px) {
-
-}
-
 .type-banner {
     color: #ffffff;   
     padding-top: 8%;
@@ -92,7 +80,7 @@ i.fas.fa-sort-up {
 span.type {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    font-size: 70px;
+    font-size: 60px;
     border-bottom: 5px solid #fff;
 }
 
