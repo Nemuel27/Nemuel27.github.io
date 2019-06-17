@@ -7,6 +7,7 @@ $(document).ready(function() {
         navigation: true,
         navigationPosition: 'right', 
         anchors:['HomePage', 'AboutPage','Project','ContactPage'],
+        responsiveWidth: 1100,
 
     });
 
