@@ -1,8 +1,8 @@
 $(document).ready(function() {
     $('#fullpage').fullpage({
         //options here
-        autoScrolling:true,
-        scrollHorizontally: true,
+        // autoScrolling:true,
+        // scrollHorizontally: true,
         sectionsColor : ['#fff','#000', '#5e7078', '#0b1218'],
         navigation: true,
         navigationPosition: 'right', 
@@ -12,8 +12,14 @@ $(document).ready(function() {
     });
 
     //methods
-    $.fn.fullpage.setAllowScrolling(true);
+    // $.fn.fullpage.setAllowScrolling(true);
 });
+
+$(window).on('load', function() { // makes sure the whole site is loaded 
+  $('#status').fadeOut(); // will first fade out the loading animation 
+  $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website. 
+  $('body').delay(3500).css({'overflow':'visible'});
+})
 
 $(function() {     
   $('.header-logo').on('click',function(e) {
