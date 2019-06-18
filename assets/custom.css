@@ -535,6 +535,13 @@ form button:hover {
   ul.side-categories li a {
     font-size: 30px;
   }
+  .flip-card {
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+  h6.text-sec2-slider {
+    margin-bottom: 50px;
+  }
 }
 
 
