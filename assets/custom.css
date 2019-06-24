@@ -491,8 +491,8 @@ form button:hover {
   .img-container {
     margin: 0 auto;
     margin-bottom: 100px;
-    width: 400px;
-    height: 400px;
+    width: 400px !important;
+    height: 400px !important;
   }
 
   span.type {
