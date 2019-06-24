@@ -547,7 +547,8 @@ form button:hover {
     height: 15%;
   }
   ul.side-categories li a {
-    font-size: 30px;
+    font-size: 33px;
+    text-transform: uppercase;
   }
   .flip-card {
     margin: 0 auto;
