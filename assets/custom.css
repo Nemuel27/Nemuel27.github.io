@@ -111,26 +111,26 @@ i.fas.fa-sort-up {
 
 .type-banner {
     color: #ffffff;   
-    padding-top: 8%;
+    padding-top: 5%;
 }
 .type-banner h1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    font-size: 70px;
+    font-size: 50px;
     letter-spacing: -1px;
 }
 span.type {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    font-size: 60px;
+    font-size: 55px;
     border-bottom: 5px solid #fff;
 }
 
 .job-title {
     font-family: 'Poppins', sans-serif;
-    font-weight: 700;
+    /* font-weight: 700; */
     font-size: 30px;
-    letter-spacing: -1px;
+    /* letter-spacing: -1px; */
     margin-top: 35px;
 }
 
