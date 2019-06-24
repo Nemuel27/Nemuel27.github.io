@@ -293,6 +293,7 @@ h6.text-sec2-slider {
   transform: scale(0);
   -webkit-transition: .3s ease;
   transition: .3s ease;
+  height: calc(100% - (25px));
 }
 
 .main:hover .overlay {
