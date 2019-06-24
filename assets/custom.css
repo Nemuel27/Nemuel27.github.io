@@ -572,6 +572,9 @@ form button:hover {
   .footer-section .global-footer .global-footer__wrapper .global-footer__branding .global-footer__mantra {
     font-size: 22px
   }
+  .proj-img {
+    height: 360px !important;
+  }
 }
 
 
