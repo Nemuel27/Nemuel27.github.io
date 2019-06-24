@@ -555,11 +555,21 @@ form button:hover {
   }
   h6.text-sec2-slider {
     margin-bottom: 50px;
+    font-size: 70px;
   }
   form input#name, form input#email, form textarea#form-control {
     padding: 20px;
     border-radius: 10px;
     font-size: 30px;
+  }
+  .footer-section .global-footer .global-footer__wrapper .global-footer__branding .global-footer__huge {
+    font-size: 27px;
+  }
+  ul.footer-menu-right {
+    font-size: 20px;
+  }
+  .footer-section .global-footer .global-footer__wrapper .global-footer__branding .global-footer__mantra {
+    font-size: 22px
   }
 }
 
