@@ -484,6 +484,17 @@ form button:hover {
     font-size: 110px;
   }
 
+  .type-banner {
+    text-align: center;
+  }
+
+  .img-container {
+    margin: 0 auto;
+    margin-bottom: 100px;
+    width: 400px;
+    height: 400px;
+  }
+
   span.type {
     font-size: 60px;
   }
@@ -498,18 +509,20 @@ form button:hover {
   }
 
   .home-section-details__description a, .contact_desc p{
-    font-size: 30px;
+    font-size: 45px;
   }
 
   .learn-btn p, .tour-btn p {
-    font-size: 40px;
+    font-size: 50px;
     border-radius: 100px;
+    padding: 30px 80px;
+    font-weight: normal;
   }
   
   .tour-btn p {
     /*position: absolute;*/
     /*top: 30%;*/
-    left: 23%;
+    left: 19%;
   }
 
   .aboutMe-desc, .project-sec,
@@ -527,7 +540,8 @@ form button:hover {
   }
   .btn-submit {
     font-size: 40px;
-    margin-top: 10px !important;
+    margin-top: 11px !important;
+    padding: 25px 50px;
   }
   ul.side-categories {
     height: 15%;
@@ -541,6 +555,11 @@ form button:hover {
   }
   h6.text-sec2-slider {
     margin-bottom: 50px;
+  }
+  form input#name, form input#email, form textarea#form-control {
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 30px;
   }
 }
 
