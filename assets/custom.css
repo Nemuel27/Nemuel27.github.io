@@ -75,6 +75,7 @@ ul.side-categories {
     font-weight: 900;
     background: rgba(7, 45, 70, 0.69);
     height: 30%;
+    padding: 0;
 }
 
 ul.side-categories li {
