@@ -466,9 +466,55 @@ form button:hover {
     transition: .5s;
 }
 
+.footer-section .global-footer .global-footer__wrapper ul li a:hover {
+  color: #fff;
+}
+
 .footer-section .global-footer .global-footer__wrapper .global-footer__nav-wrapper ul >li:not(:last-of-type) {
     margin-right: 16px;
 }
+
+.social-icon-footer {
+  display: flex;
+}
+
+
+.social-icon-footer > .icon {
+  position: relative;
+  border: 2px solid #fff;
+  width: 40px;
+  height: 40px;
+  margin: 0 5px;
+  border-radius: 100%;
+  transition: .5s;
+  cursor: pointer;
+  color: #fff;
+}
+
+.social-icon-footer > .icon > i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.social-icon-footer > .icon:hover {
+  background: #fff;
+  color: #000;
+  border-color: #fff;
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(255,255,255,1);
+  -moz-box-shadow: 0px 3px 5px 0px rgba(255,255,255,1);
+  box-shadow: 0px 3px 5px 0px rgba(255,255,255,1);
+}
+
+.social-icon-footer > .icon > a:hover {
+    color: #000;
+}
+
+.icon:first-child{
+  margin-left: 0;
+}
+
 
 /* Mobile Responsive */
 
