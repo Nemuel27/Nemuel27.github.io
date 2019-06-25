@@ -464,6 +464,7 @@ form button:hover {
     font-weight: 700;
     text-decoration: none;
     transition: .5s;
+    font-size: 18px;
 }
 
 .footer-section .global-footer .global-footer__wrapper ul li a:hover {
