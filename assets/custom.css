@@ -44,6 +44,16 @@ body {
   animation-iteration-count: infinite;
 }
 
+.pulse {
+  -webkit-animation-name: hvr-pulse;
+ animation-name: hvr-pulse;
+ -webkit-animation-duration: 1s;
+ animation-duration: 1s;
+ -webkit-animation-timing-function: linear;
+ animation-timing-function: linear;
+ -webkit-animation-iteration-count: infinite;
+ animation-iteration-count: infinite;
+}
 
 /* Preloader */
 #preloader {
@@ -92,7 +102,7 @@ body {
   width: 75px;
   height: 75px;
   transition: transform .5s cubic-bezier(.25,.1,.25,1),opacity .5s cubic-bezier(.25,.1,.25,1),background-color .2s cubic-bezier(.25,.1,.25,1);
-  background: #fff;
+  /* background: #fff; */
   color: #0b1218;
 }
 .header-icon{
